@@ -82,7 +82,10 @@ class CreditsState extends MusicBeatState
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 			['Made Funny Psych Fork'],
-			['Linkmain',			'linkmain',			'Made the fork lol',												'https://www.youtube.com/channel/UCOwez2daa22BzqEnDfhR2cQ',	'5bfb39'],
+			['Linkmain',			'linkmain',		'Made the fork lol',	'https://www.youtube.com/channel/UCOwez2daa22BzqEnDfhR2cQ',	'5bfb39'],
+			[''],
+			['Bozos'],
+			['Unholywanderer04',	'wanderer',		'Made a funny pr for the readme',	'https://www.youtube.com/watch?v=MLgj0oAEo3o&ab_channel=DEADEAD', '9EA2FF'],
 			[''],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',								'https://twitter.com/Shadow_Mario_',	'444444'],
