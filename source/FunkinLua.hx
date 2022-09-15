@@ -105,7 +105,7 @@ class FunkinLua {
 		scriptName = script;
 		initHaxeModule();
 
-		trace('Your dumb lua script named:' + script 'loaded');
+		trace('Your dumb lua script named:' + script, 'loaded');
 
 		// Lua shit
 		set('Function_StopLua', Function_StopLua);
