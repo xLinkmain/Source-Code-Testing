@@ -74,7 +74,7 @@ class TitleState extends MusicBeatState
 
 	#if TITLE_SCREEN_EASTER_EGG
 	var easterEggKeys:Array<String> = [
-		'SHADOW', 'RIVER', 'SHUBS', 'BBPANZU'
+		'SHADOW', 'RIVER', 'SHUBS', 'BBPANZU', 'LINKMAIN'
 	];
 	var allowedKeys:String = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 	var easterEggKeysBuffer:String = '';
@@ -176,6 +176,9 @@ class TitleState extends MusicBeatState
 				titleJSON.gfx += 160;
 				titleJSON.gfy -= 10;
 			case 'BBPANZU':
+				titleJSON.gfx += 45;
+				titleJSON.gfy += 100;
+			case 'LINKMAIN':
 				titleJSON.gfx += 45;
 				titleJSON.gfy += 100;
 		}
@@ -641,16 +644,16 @@ class TitleState extends MusicBeatState
 					FlxG.sound.music.fadeIn(4, 0, 0.7);
 				case 2:
 					#if PSYCH_WATERMARKS
-					createCoolText(['Psych Engine by'], 15);
+					createCoolText(['Funny Fork by'], 15);
 					#else
 					createCoolText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
 					#end
 				// credTextShit.visible = true;
 				case 4:
 					#if PSYCH_WATERMARKS
-					addMoreText('Shadow Mario', 15);
-					addMoreText('RiverOaken', 15);
-					addMoreText('shubs', 15);
+					addMoreText('Linkmain', 15);
+					addMoreText('UnholyWanderer04', 15);
+					addMoreText('Insert Bottom Text', 15);
 					#else
 					addMoreText('present');
 					#end

@@ -86,6 +86,7 @@ class CreditsState extends MusicBeatState
 			[''],
 			['Bozos'],
 			['Unholywanderer04',	'wanderer',		'Made a funny pr for the readme',	'https://www.youtube.com/watch?v=MLgj0oAEo3o&ab_channel=DEADEAD', '9EA2FF'],
+			['Skry',	'milk',		'Made NO funny pr and is LACTOSE BOY',	'htthttps://www.youtube.com/channel/UCB8KzoWDqJJitNvxIBNN6aQ',	 'FFFFFF'],
 			[''],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',								'https://twitter.com/Shadow_Mario_',	'444444'],
